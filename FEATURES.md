@@ -12,3 +12,13 @@ Install them from this repository:
 
     mkdir -p "$HOME/.local/bin"
     install -m 0755 features/cutscene-os-workspace features/cutscene-os-plan features/cutscene-os-check "$HOME/.local/bin/"
+
+## Preinstalled purpose software
+
+The installer adds these three Flathub applications for video editing:
+
+1. **GIMP** — org.gimp.GIMP
+2. **Inkscape** — org.inkscape.Inkscape
+3. **Krita** — org.kde.krita
+
+They are installed from Flathub during setup. The repository contains application IDs and documentation, not third-party binaries; each publisher’s terms and licenses apply.
